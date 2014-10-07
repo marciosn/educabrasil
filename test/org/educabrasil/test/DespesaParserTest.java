@@ -1,15 +1,15 @@
 package org.educabrasil.test;
 
-import static org.junit.Assert.*;
-
 import java.util.List;
+
+import junit.framework.TestCase;
 
 import org.educabrasil.beans.Despesa;
 import org.educabrasil.parsers.DespesaParser;
 import org.junit.Test;
 
 
-public class DespesaParserTest {
+public class DespesaParserTest extends TestCase{
 
 	@Test
 	public void testaTotalDeDespesasComEducacaoEmFortalezaEm2012() {
@@ -19,7 +19,7 @@ public class DespesaParserTest {
 		
 		Double despesasTotal = 0.0;
 		for (Despesa despesa : despesas) {
-			System.out.println("Nome: " + despesa.getNome() + " | Descrição: " + despesa.getDescricao());
+			System.out.println("Nome: " + despesa.getNome() + " | Descricao: " + despesa.getDescricao());
 			despesasTotal += despesa.getValor();
 		}
 		

@@ -1,12 +1,12 @@
 package org.educabrasil.test;
 
-import static org.junit.Assert.*;
+import junit.framework.TestCase;
 
 import org.educabrasil.parsers.OrcamentoParser;
 import org.junit.Test;
 
 
-public class OrcamentoParserTest {
+public class OrcamentoParserTest extends TestCase{
 
 	@Test
 	public void testaOrcamentoDeFortalezaDe2012() {
