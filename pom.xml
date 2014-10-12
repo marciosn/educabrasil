@@ -162,14 +162,76 @@
 			<version>1.0.0.Final</version>
 		</dependency>
 		
-		<!--ESSA DEPENDENCIA RESOLVEU O PROBLEMA DE COMPILACAO MAS CAUSA UMA EXECECAO QUE 
-		IMPOSSIBILITA A EXECUCAO DA APLICACAO -->
+		<!--ESSA DEPENDENCIA RESOLVEU O PROBLEMA DE COMPILACAO MAS CAUSA UMA EXECECAO QUE IMPOSSIBILITA A EXECUCAO DA APLICACAO -->
 		
-		 <!-- <dependency>
+		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>3.3.2.GA</version>
-		</dependency> -->		
+		</dependency>
+		
+		<!-- <dependency>
+    		<groupId>org.hibernate</groupId>
+    		<artifactId>hibernate-core</artifactId>
+    		<version>4.3.6.Final</version>
+		</dependency> -->
+		
+		<dependency>
+    		<groupId>org.hibernate</groupId>
+    		<artifactId>hibernate-entitymanager</artifactId>
+    		<version>4.3.6.Final</version>
+		</dependency>
+		
+		<dependency>
+    		<groupId>org.hibernate</groupId>
+    		<artifactId>hibernate-osgi</artifactId>
+    		<version>4.3.6.Final</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-envers</artifactId>
+    		<version>4.3.6.Final</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.hibernate</groupId>
+    		<artifactId>hibernate-c3p0</artifactId>
+    		<version>4.3.6.Final</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.hibernate</groupId>
+    		<artifactId>hibernate-proxool</artifactId>
+    		<version>4.3.6.Final</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.hibernate</groupId>
+    		<artifactId>hibernate-infinispan</artifactId>
+    		<version>4.3.6.Final</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.hibernate</groupId>
+    		<artifactId>hibernate-ehcache</artifactId>
+    		<version>4.3.6.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>hibernate-annotations</groupId>
+			<artifactId>hibernate-annotations</artifactId>
+			<version>3.3.0.ga</version>
+		</dependency>
+		<dependency>
+			<groupId>hibernate-commons-annotations</groupId>
+			<artifactId>hibernate-commons-annotations</artifactId>
+			<version>3.0.0.GA</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-tools</artifactId>
+			<version>3.2.0.ga</version>
+		</dependency>
+		
+		
+		
+		<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||	-->
+		
 		<dependency>
 			<groupId>javassist</groupId>
 			<artifactId>javassist</artifactId>
@@ -251,6 +313,7 @@
 				</excludes>
 			</resource>
 		</resources>
+		
 		<plugins>
 
 			<plugin>
