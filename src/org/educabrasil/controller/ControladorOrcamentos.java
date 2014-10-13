@@ -37,6 +37,7 @@ public class ControladorOrcamentos {
 		Criteria criteria = session.createCriteria(Orcamento.class)
 				.add(Restrictions.eq("municipio", municipio));
 		
+		@SuppressWarnings("unchecked")
 		List<Orcamento> orcamentos = (List<Orcamento>)criteria.list();
 		
 		session.close();

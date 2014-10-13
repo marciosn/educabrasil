@@ -27,6 +27,7 @@ public class ControladorDespesas {
 				.add(Restrictions.eq("ano", ano))
 				.addOrder(Order.desc("valor"));
 		
+		@SuppressWarnings("unchecked")
 		List<Despesa> depesas = (List<Despesa>) criteria.list();
 		
 		session.close();

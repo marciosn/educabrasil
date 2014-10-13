@@ -23,6 +23,7 @@ public class ControladorMunicipios {
 		
 		Criteria criteria = session.createCriteria(Municipio.class);
 		
+		@SuppressWarnings("unchecked")
 		List<Municipio> municipios = criteria.list();
 		session.close();
 		return municipios;
