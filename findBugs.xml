@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="1" timestamp="1413505228226" analysisTimestamp="1413505167422" release="">
+  <Project projectName="EducaBrasil">
+    <Jar>C:\Users\Marcio\git\educabrasil\target\classes</Jar>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\Documents\ECLIPSE VARIAS VERSOES\eclipse-jee-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\Documents\ECLIPSE VARIAS VERSOES\eclipse-jee-luna-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\annotations-api\6.0.41\annotations-api-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\catalina-ant\6.0.41\catalina-ant-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\catalina-ha\6.0.41\catalina-ha-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\juli\6.0.41\juli-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\tribes\6.0.41\tribes-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\catalina\6.0.41\catalina-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\eclipse\jdt\core\compiler\ecj\4.3.1\ecj-4.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\el-api\6.0.41\el-api-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\jasper-el\6.0.41\jasper-el-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\jasper\6.0.41\jasper-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\jsp-api\6.0.41\jsp-api-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\servlet-api\6.0.41\servlet-api-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\coyote\6.0.41\coyote-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\dbcp\6.0.41\dbcp-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\tomcat-i18n-es\6.0.41\tomcat-i18n-es-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\tomcat-i18n-fr\6.0.41\tomcat-i18n-fr-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\tomcat-i18n-ja\6.0.41\tomcat-i18n-ja-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\c3p0\c3p0\0.9.1\c3p0-0.9.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\net\sf\ehcache\ehcache\1.5.0\ehcache-1.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\net\sf\jsr107cache\jsr107cache\1.0\jsr107cache-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\net\sf\ezmorph\ezmorph\1.0\ezmorph-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\hibernate-jpamodelgen\1.0.0.Final\hibernate-jpamodelgen-1.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\hibernate-core\3.3.2.GA\hibernate-core-3.3.2.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\hibernate-entitymanager\4.3.6.Final\hibernate-entitymanager-4.3.6.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\hibernate-osgi\4.3.6.Final\hibernate-osgi-4.3.6.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\osgi\org.osgi.core\4.3.1\org.osgi.core-4.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\osgi\org.osgi.compendium\4.3.1\org.osgi.compendium-4.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\hibernate-envers\4.3.6.Final\hibernate-envers-4.3.6.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\hibernate-c3p0\4.3.6.Final\hibernate-c3p0-4.3.6.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\com\mchange\c3p0\0.9.2.1\c3p0-0.9.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\com\mchange\mchange-commons-java\0.2.3.4\mchange-commons-java-0.2.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\hibernate-proxool\4.3.6.Final\hibernate-proxool-4.3.6.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\proxool\proxool\0.8.3\proxool-0.8.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\hibernate-infinispan\4.3.6.Final\hibernate-infinispan-4.3.6.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\infinispan\infinispan-core\6.0.0.Final\infinispan-core-6.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\infinispan\infinispan-commons\6.0.0.Final\infinispan-commons-6.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\jgroups\jgroups\3.4.1.Final\jgroups-3.4.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.1.Final\jboss-transaction-api_1.1_spec-1.0.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\jboss\marshalling\jboss-marshalling-river\1.3.18.GA\jboss-marshalling-river-1.3.18.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\jboss\marshalling\jboss-marshalling\1.3.18.GA\jboss-marshalling-1.3.18.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\rhq\helpers\rhq-pluginAnnotations\3.0.4\rhq-pluginAnnotations-3.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\hibernate-ehcache\4.3.6.Final\hibernate-ehcache-4.3.6.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\net\sf\ehcache\ehcache-core\2.4.3\ehcache-core-2.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\hibernate-annotations\hibernate-annotations\3.3.0.GA\hibernate-annotations-3.3.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\hibernate-commons-annotations\hibernate-commons-annotations\3.0.0.GA\hibernate-commons-annotations-3.0.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\hibernate-tools\3.2.0.ga\hibernate-tools-3.2.0.ga.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\freemarker\freemarker\2.3.8\freemarker-2.3.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\hibernate\jtidy\r8-20060801\jtidy-r8-20060801.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\javassist\javassist\3.9.0.GA\javassist-3.9.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\jboss\javaee\jboss-transaction-api\1.0.1.GA\jboss-transaction-api-1.0.1.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\log4j\log4j\1.2.15\log4j-1.2.15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\com\sun\jmx\jmxri\1.2.1\jmxri-1.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\mysql\mysql-connector-java\5.0.7\mysql-connector-java-5.0.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\postgresql\postgresql\9.1-901-1.jdbc4\postgresql-9.1-901-1.jdbc4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\slf4j\slf4j-api\1.5.8\slf4j-api-1.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\slf4j\slf4j-log4j12\1.5.8\slf4j-log4j12-1.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\javax\jms\jms\1.1\jms-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\com\sun\jdmk\jmxtools\1.2.1\jmxtools-1.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\maven\tomcat6-maven-plugin\2.0\tomcat6-maven-plugin-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\tomcat\maven\common-tomcat-maven-plugin\2.0\common-tomcat-maven-plugin-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-archiver\2.1.1\plexus-archiver-2.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-io\2.0.3\plexus-io-2.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\com\google\guava\guava\10.0.1\guava-10.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\httpcomponents\fluent-hc\4.2-alpha1\fluent-hc-4.2-alpha1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\httpcomponents\httpclient\4.2-alpha1\httpclient-4.2-alpha1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-plugin-api\2.0.11\maven-plugin-api-2.0.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-artifact-manager\2.0.11\maven-artifact-manager-2.0.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.2\wagon-provider-api-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-artifact\2.0.11\maven-artifact-2.0.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-project\2.0.11\maven-project-2.0.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-profile\2.0.11\maven-profile-2.0.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-plugin-registry\2.0.11\maven-plugin-registry-2.0.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-archiver\2.4.2\maven-archiver-2.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.5\plexus-utils-3.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\junit\junit\4.5\junit-4.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\surefire\surefire-junit47\2.17\surefire-junit47-2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\surefire\common-junit48\2.17\common-junit48-2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\surefire\common-junit4\2.17\common-junit4-2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\surefire\common-junit3\2.17\common-junit3-2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.17\surefire-grouper-2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.4\maven-shared-utils-0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\surefire\common-java5\2.17\common-java5-2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\surefire\surefire-api\2.17\surefire-api-2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\plugins\maven-project-info-reports-plugin\2.7\maven-project-info-reports-plugin-2.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\2.1\maven-reporting-impl-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\shared\maven-dependency-tree\2.1\maven-dependency-tree-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\shared\maven-doxia-tools\1.4\maven-doxia-tools-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\shared\maven-shared-jar\1.1\maven-shared-jar-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-digest\1.0\plexus-digest-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\bcel\bcel\5.2\bcel-5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\jakarta-regexp\jakarta-regexp\1.4\jakarta-regexp-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\wagon\wagon-ssh\1.0\wagon-ssh-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\com\jcraft\jsch\0.1.44-1\jsch-0.1.44-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\wagon\wagon-ssh-common\1.0\wagon-ssh-common-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\wagon\wagon-file\1.0\wagon-file-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\wagon\wagon-http-lightweight\1.0\wagon-http-lightweight-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\wagon\wagon-http-shared\1.0\wagon-http-shared-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\jsoup\jsoup\1.6.1\jsoup-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-api\1.8\maven-scm-api-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-manager-plexus\1.8\maven-scm-manager-plexus-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-provider-hg\1.8\maven-scm-provider-hg-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\regexp\regexp\1.3\regexp-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-provider-perforce\1.8\maven-scm-provider-perforce-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-provider-starteam\1.8\maven-scm-provider-starteam-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-provider-svn-commons\1.8\maven-scm-provider-svn-commons-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-provider-svnexe\1.8\maven-scm-provider-svnexe-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-provider-cvs-commons\1.8\maven-scm-provider-cvs-commons-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-provider-cvsexe\1.8\maven-scm-provider-cvsexe-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-provider-cvsjava\1.8\maven-scm-provider-cvsjava-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\netbeans\lib\cvsclient\20060125\cvsclient-20060125.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\ch\ethz\ganymed\ganymed-ssh2\build210\ganymed-ssh2-build210.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-provider-gitexe\1.8\maven-scm-provider-gitexe-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\scm\maven-scm-provider-git-commons\1.8\maven-scm-provider-git-commons-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.4\doxia-sink-api-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.4\doxia-logging-api-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\doxia\doxia-core\1.4\doxia-core-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\httpcomponents\httpcore\4.0.1\httpcore-4.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.4\doxia-module-xhtml-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.2\doxia-decoration-model-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.2\doxia-site-renderer-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\doxia\doxia-module-fml\1.2\doxia-module-fml-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9\plexus-container-default-1.0-alpha-9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.9\plexus-interpolation-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-validator\commons-validator\1.4.0\commons-validator-1.4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\joda-time\joda-time\1.6.2\joda-time-1.6.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\plugins\maven-pmd-plugin\2.7.1\maven-pmd-plugin-2.7.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-resources\1.0-alpha-7\plexus-resources-1.0-alpha-7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\pmd\pmd\4.3\pmd-4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\ant\ant\1.6\ant-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\jaxen\jaxen\1.1.1\jaxen-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\xom\xom\1.0\xom-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\xerces\xmlParserAPIs\2.6.2\xmlParserAPIs-2.6.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\xalan\xalan\2.6.0\xalan-2.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\com\ibm\icu\icu4j\2.6.1\icu4j-2.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\asm\asm\3.2\asm-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\plugins\maven-checkstyle-plugin\2.13\maven-checkstyle-plugin-2.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-core\2.2.1\maven-core-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-plugin-parameter-documenter\2.2.1\maven-plugin-parameter-documenter-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\wagon\wagon-http\1.0-beta-6\wagon-http-1.0-beta-6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\wagon\wagon-webdav-jackrabbit\1.0-beta-6\wagon-webdav-jackrabbit-1.0-beta-6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\jackrabbit\jackrabbit-webdav\1.5.0\jackrabbit-webdav-1.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\1.5.0\jackrabbit-jcr-commons-1.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-httpclient\commons-httpclient\3.0\commons-httpclient-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\slf4j\slf4j-nop\1.5.3\slf4j-nop-1.5.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\slf4j\slf4j-jdk14\1.5.6\slf4j-jdk14-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.6\jcl-over-slf4j-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-error-diagnostics\2.2.1\maven-error-diagnostics-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\wagon\wagon-ssh-external\1.0-beta-6\wagon-ssh-external-1.0-beta-6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-interactivity-api\1.0-alpha-4\plexus-interactivity-api-1.0-alpha-4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-monitor\2.2.1\maven-monitor-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\maven-plugin-descriptor\2.2.1\maven-plugin-descriptor-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\maven\doxia\doxia-integration-tools\1.6\doxia-integration-tools-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\codehaus\plexus\plexus-velocity\1.1.8\plexus-velocity-1.1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\com\puppycrawl\tools\checkstyle\5.7\checkstyle-5.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\com\google\guava\guava-jdk5\14.0.1\guava-jdk5-14.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\org\apache\velocity\velocity\1.5\velocity-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\antlr-2.7.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\c3p0-0.9.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\commons-beanutils-core-1.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\commons-collections-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\commons-lang-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\commons-logging-api-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\ehcache-1.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\ezmorph-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\hibernate-jpamodelgen-1.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\hibernate3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\javassist-3.9.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\json-lib-2.4-jdk15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\jta-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\log4j-1.2.15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\mysql-connector-java-5.0.7-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\postgresql-9.1-901.jdbc4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\slf4j-api-1.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\slf4j-log4j12-1.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Marcio\git\educabrasil\WebContent\WEB-INF\lib\servlet-api-6.0.41.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre6\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Marcio\git\educabrasil\test</SrcDir>
+    <SrcDir>C:\Users\Marcio\git\educabrasil\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" rank="17" abbrev="REC" category="STYLE" first="1">
+    <Class classname="org.educabrasil.parsers.DespesaParser">
+      <SourceLine classname="org.educabrasil.parsers.DespesaParser" sourcefile="DespesaParser.java" sourcepath="org/educabrasil/parsers/DespesaParser.java"/>
+    </Class>
+    <Method classname="org.educabrasil.parsers.DespesaParser" name="getHttpStream" signature="(Ljava/lang/String;)Ljava/io/InputStream;" isStatic="false">
+      <SourceLine classname="org.educabrasil.parsers.DespesaParser" start="120" end="145" startBytecode="0" endBytecode="325" sourcefile="DespesaParser.java" sourcepath="org/educabrasil/parsers/DespesaParser.java"/>
+    </Method>
+    <SourceLine classname="org.educabrasil.parsers.DespesaParser" start="141" end="141" startBytecode="92" endBytecode="92" sourcefile="DespesaParser.java" sourcepath="org/educabrasil/parsers/DespesaParser.java"/>
+    <SourceLine classname="org.educabrasil.parsers.DespesaParser" start="141" end="141" startBytecode="92" endBytecode="92" sourcefile="DespesaParser.java" sourcepath="org/educabrasil/parsers/DespesaParser.java"/>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.educabrasil.servlets.Informacoes">
+      <SourceLine classname="org.educabrasil.servlets.Informacoes" sourcefile="Informacoes.java" sourcepath="org/educabrasil/servlets/Informacoes.java"/>
+    </Class>
+    <Field classname="org.educabrasil.servlets.Informacoes" name="controladorDespesas" signature="Lorg/educabrasil/controller/ControladorDespesas;" isStatic="false">
+      <SourceLine classname="org.educabrasil.servlets.Informacoes" start="22" end="22" startBytecode="0" endBytecode="0" sourcefile="Informacoes.java" sourcepath="org/educabrasil/servlets/Informacoes.java"/>
+    </Field>
+    <Type descriptor="Lorg/educabrasil/controller/ControladorDespesas;" role="TYPE_FOUND">
+      <SourceLine classname="org.educabrasil.controller.ControladorDespesas" start="18" end="51" sourcefile="ControladorDespesas.java" sourcepath="org/educabrasil/controller/ControladorDespesas.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.educabrasil.servlets.Informacoes">
+      <SourceLine classname="org.educabrasil.servlets.Informacoes" sourcefile="Informacoes.java" sourcepath="org/educabrasil/servlets/Informacoes.java"/>
+    </Class>
+    <Field classname="org.educabrasil.servlets.Informacoes" name="controladorMunicipios" signature="Lorg/educabrasil/controller/ControladorMunicipios;" isStatic="false">
+      <SourceLine classname="org.educabrasil.servlets.Informacoes" start="21" end="21" startBytecode="0" endBytecode="0" sourcefile="Informacoes.java" sourcepath="org/educabrasil/servlets/Informacoes.java"/>
+    </Field>
+    <Type descriptor="Lorg/educabrasil/controller/ControladorMunicipios;" role="TYPE_FOUND">
+      <SourceLine classname="org.educabrasil.controller.ControladorMunicipios" start="16" end="41" sourcefile="ControladorMunicipios.java" sourcepath="org/educabrasil/controller/ControladorMunicipios.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.educabrasil.servlets.Informacoes">
+      <SourceLine classname="org.educabrasil.servlets.Informacoes" sourcefile="Informacoes.java" sourcepath="org/educabrasil/servlets/Informacoes.java"/>
+    </Class>
+    <Field classname="org.educabrasil.servlets.Informacoes" name="controladorOrcamentos" signature="Lorg/educabrasil/controller/ControladorOrcamentos;" isStatic="false">
+      <SourceLine classname="org.educabrasil.servlets.Informacoes" start="23" end="23" startBytecode="0" endBytecode="0" sourcefile="Informacoes.java" sourcepath="org/educabrasil/servlets/Informacoes.java"/>
+    </Field>
+    <Type descriptor="Lorg/educabrasil/controller/ControladorOrcamentos;" role="TYPE_FOUND">
+      <SourceLine classname="org.educabrasil.controller.ControladorOrcamentos" start="12" end="45" sourcefile="ControladorOrcamentos.java" sourcepath="org/educabrasil/controller/ControladorOrcamentos.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.educabrasil.servlets.ListaMunicipios">
+      <SourceLine classname="org.educabrasil.servlets.ListaMunicipios" sourcefile="ListaMunicipios.java" sourcepath="org/educabrasil/servlets/ListaMunicipios.java"/>
+    </Class>
+    <Field classname="org.educabrasil.servlets.ListaMunicipios" name="controladorDespesas" signature="Lorg/educabrasil/controller/ControladorDespesas;" isStatic="false">
+      <SourceLine classname="org.educabrasil.servlets.ListaMunicipios" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="ListaMunicipios.java" sourcepath="org/educabrasil/servlets/ListaMunicipios.java"/>
+    </Field>
+    <Type descriptor="Lorg/educabrasil/controller/ControladorDespesas;" role="TYPE_FOUND">
+      <SourceLine classname="org.educabrasil.controller.ControladorDespesas" start="18" end="51" sourcefile="ControladorDespesas.java" sourcepath="org/educabrasil/controller/ControladorDespesas.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.educabrasil.servlets.ListaMunicipios">
+      <SourceLine classname="org.educabrasil.servlets.ListaMunicipios" sourcefile="ListaMunicipios.java" sourcepath="org/educabrasil/servlets/ListaMunicipios.java"/>
+    </Class>
+    <Field classname="org.educabrasil.servlets.ListaMunicipios" name="controladorMunicipios" signature="Lorg/educabrasil/controller/ControladorMunicipios;" isStatic="false">
+      <SourceLine classname="org.educabrasil.servlets.ListaMunicipios" start="25" end="25" startBytecode="0" endBytecode="0" sourcefile="ListaMunicipios.java" sourcepath="org/educabrasil/servlets/ListaMunicipios.java"/>
+    </Field>
+    <Type descriptor="Lorg/educabrasil/controller/ControladorMunicipios;" role="TYPE_FOUND">
+      <SourceLine classname="org.educabrasil.controller.ControladorMunicipios" start="16" end="41" sourcefile="ControladorMunicipios.java" sourcepath="org/educabrasil/controller/ControladorMunicipios.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.educabrasil.servlets.ListaMunicipios">
+      <SourceLine classname="org.educabrasil.servlets.ListaMunicipios" sourcefile="ListaMunicipios.java" sourcepath="org/educabrasil/servlets/ListaMunicipios.java"/>
+    </Class>
+    <Field classname="org.educabrasil.servlets.ListaMunicipios" name="controladorOrcamentos" signature="Lorg/educabrasil/controller/ControladorOrcamentos;" isStatic="false">
+      <SourceLine classname="org.educabrasil.servlets.ListaMunicipios" start="27" end="27" startBytecode="0" endBytecode="0" sourcefile="ListaMunicipios.java" sourcepath="org/educabrasil/servlets/ListaMunicipios.java"/>
+    </Field>
+    <Type descriptor="Lorg/educabrasil/controller/ControladorOrcamentos;" role="TYPE_FOUND">
+      <SourceLine classname="org.educabrasil.controller.ControladorOrcamentos" start="12" end="45" sourcefile="ControladorOrcamentos.java" sourcepath="org/educabrasil/controller/ControladorOrcamentos.java"/>
+    </Type>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 16 Oct 2014 21:18:51 -0300" total_classes="20" referenced_classes="122" total_bugs="7" total_size="636" num_packages="6" java_version="1.7.0_17" vm_version="23.7-b01" cpu_seconds="56.36" clock_seconds="196.55" peak_mbytes="448.03" alloc_mbytes="455.12" gc_seconds="3.17" priority_2="7">
+    <PackageStats package="org.educabrasil.beans" total_bugs="0" total_types="3" total_size="125">
+      <ClassStats class="org.educabrasil.beans.Despesa" sourceFile="Despesa.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="org.educabrasil.beans.Municipio" sourceFile="Municipio.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="org.educabrasil.beans.Orcamento" sourceFile="Orcamento.java" interface="false" size="32" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.educabrasil.controller" total_bugs="0" total_types="3" total_size="62">
+      <ClassStats class="org.educabrasil.controller.ControladorDespesas" sourceFile="ControladorDespesas.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="org.educabrasil.controller.ControladorMunicipios" sourceFile="ControladorMunicipios.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="org.educabrasil.controller.ControladorOrcamentos" sourceFile="ControladorOrcamentos.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.educabrasil.parsers" total_bugs="1" total_types="6" total_size="265" priority_2="1">
+      <ClassStats class="org.educabrasil.parsers.CarregarDados" sourceFile="CarregarDados.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="org.educabrasil.parsers.CarregarDadosMunicipio" sourceFile="CarregarDadosMunicipio.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="org.educabrasil.parsers.DespesaParser" sourceFile="DespesaParser.java" interface="false" size="84" bugs="1" priority_2="1"/>
+      <ClassStats class="org.educabrasil.parsers.LatLonParser" sourceFile="LatLonParser.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="org.educabrasil.parsers.MunicipiosParser" sourceFile="MunicipiosParser.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="org.educabrasil.parsers.OrcamentoParser" sourceFile="OrcamentoParser.java" interface="false" size="35" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.educabrasil.servlets" total_bugs="6" total_types="3" total_size="95" priority_2="6">
+      <ClassStats class="org.educabrasil.servlets.Informacoes" sourceFile="Informacoes.java" interface="false" size="42" bugs="3" priority_2="3"/>
+      <ClassStats class="org.educabrasil.servlets.ListaMunicipios" sourceFile="ListaMunicipios.java" interface="false" size="45" bugs="3" priority_2="3"/>
+      <ClassStats class="org.educabrasil.servlets.Sobre" sourceFile="Sobre.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.educabrasil.test" total_bugs="0" total_types="2" total_size="24">
+      <ClassStats class="org.educabrasil.test.DespesaParserTest" sourceFile="DespesaParserTest.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.educabrasil.test.OrcamentoParserTest" sourceFile="OrcamentoParserTest.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.educabrasil.util" total_bugs="0" total_types="3" total_size="65">
+      <ClassStats class="org.educabrasil.util.GeraTabelas" sourceFile="GeraTabelas.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="org.educabrasil.util.PovoaDados" sourceFile="PovoaDados.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="org.educabrasil.util.PreparaSessao" sourceFile="PreparaSessao.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="27135" invocations="743" avgMicrosecondsPerInvocation="36521" maxMicrosecondsPerInvocation="2067910" standardDeviationMircosecondsPerInvocation="179196"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="4254" invocations="2" avgMicrosecondsPerInvocation="2127017" maxMicrosecondsPerInvocation="3915759" standardDeviationMircosecondsPerInvocation="1788742"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1413505228219" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
