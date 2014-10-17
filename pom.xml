@@ -340,7 +340,7 @@
             <artifactId>maven-checkstyle-plugin</artifactId>
             <version>2.13</version>
         <configuration>
-          <configLocation>/target/checkstyle.xml</configLocation>
+          <configLocation>checkStyle.xml</configLocation>
         </configuration>
         </plugin>
             
