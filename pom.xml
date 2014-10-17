@@ -352,7 +352,7 @@
                 <linkXRef>false</linkXRef>
                 <targetJdk>1.7</targetJdk>
                 <rulesets>
-                    <ruleset>/rulesets/basic.xml</ruleset>
+                    <ruleset>rules-pmd.xml</ruleset>
                 </rulesets>
             </configuration>
         </plugin>
