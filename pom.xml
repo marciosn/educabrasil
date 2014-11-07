@@ -334,40 +334,6 @@
 		<testSourceDirectory>test</testSourceDirectory>
 		<sourceDirectory>src</sourceDirectory>		
 		<plugins>
-            <!-- FindBugs Static Analysis -->
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>findbugs-maven-plugin</artifactId>
-            <version>2.5.2</version>
-            <configuration>
-                <effort>Max</effort>
-                <threshold>Low</threshold>
-                <failOnError>true</failOnError>
-                <includeFilterFile>${session.executionRootDirectory}/findbugs-security-include.xml</includeFilterFile>
-                <excludeFilterFile>${session.executionRootDirectory}/findbugs-security-exclude.xml</excludeFilterFile>
-                <plugins>
-                    <plugin>
-                        <groupId>com.h3xstream.findsecbugs</groupId>
-                        <artifactId>findsecbugs-plugin</artifactId>
-                        <version>1.2.0</version>
-                    </plugin>
-                </plugins>
-            </configuration>
-        </plugin>    
-            
-		<!--<plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-pmd-plugin</artifactId>
-            <version>2.7.1</version>
-            <executions>
-                <execution>
-                    <goals>
-                        <goal>check</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin> -->
-		
 		<plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-project-info-reports-plugin</artifactId>
@@ -419,9 +385,23 @@
 					</formats>
 				</configuration>
 			</plugin>
+           <!-- <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.2</version>
+                    <executions>
+                        <execution>
+                            <goals> 
+                                <goal>check</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+            </plugin>
+            -->
 		</plugins>
 	</build>
     
+    <!-- reportings -->
     
     <reporting>
     <plugins>
@@ -430,24 +410,63 @@
                 <artifactId>maven-jxr-plugin</artifactId>
                 <version>2.3</version>
         </plugin>
+        <!-- FindBugs Static Analysis -->
         <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>findbugs-maven-plugin</artifactId>
+            <version>2.5.2</version>
+            <configuration>
+                <effort>Max</effort>
+                <threshold>Low</threshold>
+                <failOnError>false</failOnError>
+                <includeFilterFile>${session.executionRootDirectory}/findbugs-security-include.xml</includeFilterFile>
+                <excludeFilterFile>${session.executionRootDirectory}/findbugs-security-exclude.xml</excludeFilterFile>
+                <plugins>
+                    <plugin>
+                        <groupId>com.h3xstream.findsecbugs</groupId>
+                        <artifactId>findsecbugs-plugin</artifactId>
+                        <version>1.2.0</version>
+                    </plugin>
+                </plugins>
+            </configuration>
+        </plugin>   
+        
+        <!--<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
             <version>2.7.1</version>
             <configuration>
-                <linkXRef>false</linkXRef>
-                <targetJdk>1.7</targetJdk>
+                 <rulesets>
+					<ruleset>rules-pmd.xml</ruleset>
+				</rulesets>
             </configuration>
-        </plugin>
+        </plugin> -->
+        
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.2</version>
+        <configuration>
+          <rulesets>
+            <!-- Two rule sets that come bundled with PMD -->
+            <ruleset>/rulesets/java/braces.xml</ruleset>
+            <ruleset>/rulesets/java/naming.xml</ruleset>
+            <!-- Custom local file system rule set -->
+            <ruleset>d:\rulesets\strings.xml</ruleset>
+            <!-- Custom remote rule set accessed via a URL -->
+            <ruleset>http://localhost/design.xml</ruleset>
+          </rulesets>
+        </configuration>
+      </plugin>
+        
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
             <version>2.13</version>
-            <configuration>
-                <linkXRef>false</linkXRef>
-                <targetJdk>1.7</targetJdk>
-            </configuration>
-        </plugin>
+                <configuration>
+                    <configLocation>checkstyle.xml</configLocation>
+                </configuration>
+      </plugin>
     </plugins>
 </reporting>
 </project>
